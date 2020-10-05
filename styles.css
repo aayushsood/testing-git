@@ -1,0 +1,21 @@
+h1 {
+  /* x-axis y-axis blur color */
+  text-shadow: 8px 5px 3px seagreen;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: darkred;
+  margin: 20px;
+  /* x-axis y-axis blur color */
+  box-shadow: 10px 10px 10px tomato;
+  transition: all 1s ease-in-out;
+}
+
+.box:hover {
+  -webkit-box-shadow: 16px 13px 14px 0px rgba(117, 181, 186, 1);
+  -moz-box-shadow: 16px 13px 14px 0px rgba(117, 181, 186, 1);
+  box-shadow: 16px 13px 14px 0px rgba(117, 181, 186, 1);
+  background: cyan;
+}
